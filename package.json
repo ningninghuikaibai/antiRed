@@ -1,0 +1,33 @@
+{
+  "name": "anti-red",
+  "version": "1.0.0",
+  "type": "module",
+  "private": false,
+  "description": "防红插件，用于防止前端内容被平台检测和屏蔽，支持Vue单文件组件的内容加密、混淆和动态解密",
+  "exports": {
+    ".": "./index.js",
+    "./dom":"./dom.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "anti-red",
+    "content-protection",
+    "vite-plugin",
+    "vue",
+    "encryption",
+    "obfuscation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ningninghuikaibai/antiRed.git"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.5.14",
+    "crypto-js": "^4.2.0"
+  }
+}
